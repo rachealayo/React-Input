@@ -1,0 +1,181 @@
+.header{
+   height: 10vh;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* z-index: 500; */
+   color: white;
+}
+
+.Wrapper{
+    height: 100%;
+   width: 90%;
+   /* background-color: bisque; */
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+    height: 100%;
+    width: 10%;
+    /* background-color: powderblue; */
+    z-index: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navWrap{
+    height: 100%;
+    width: 40%;
+    /* background-color: powderblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    .navWrap{
+       display:none
+    }
+}
+span{
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+} 
+
+.burgernav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: black;
+    height: 50vh;
+    transition:all ease 1s;
+    justify-content: space-evenly;
+    margin-top: 320px;
+}
+ 
+.BurgerHold{
+   /* background-color: rgb(249, 249, 247); */
+   display: none;
+   z-index: 1;
+}
+@media screen and (max-width: 768px){
+    .BurgerHold{
+        display: flex;
+      /* color:white; */
+        
+    }
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Input{
+    height: 350px;
+    width: 40%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardwrap{
+    height: 90%;
+    width: 90%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.inpwrap{
+    height: 70%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.inp1{
+  height: 25px;
+  width: 90%;
+  background-color: rgb(245, 243, 243);
+}
+.inp2{
+    height: 25px;
+    width: 90%;
+    background-color: rgb(234, 246, 234);
+}
+.inp3{
+    height: 25px;
+    width: 90%;
+    background-color: rgb(252, 252, 242);
+}
+.inp4{
+    height: 25px;
+    width: 90%;
+    background-color: rgb(235, 235, 241);
+}
+
+.post{
+    height: 25px;
+    width: 90px;
+    background-color: purple;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card{
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    /* background-color: darkmagenta; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrap{
+    /* height: 80%; */
+    width: 300px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.getPics{
+    height: 150px;
+    width: 200px;
+    /* background-color: rgba(132, 4, 132, 0.168); */
+}
+
+.delete{
+    height: 45px;
+    width: 90px;
+    background-color: rgb(234, 6, 6);
+    font-weight: bold;
+    cursor: pointer;
+}
